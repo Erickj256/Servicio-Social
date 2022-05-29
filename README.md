@@ -16,11 +16,11 @@ del modelo SIR dependiendo de los parametros asignados.
 
 - CovidCDMX
 
-El objetivo de este código es reproducir el modelo SIR, pero con la informacion de uso libre del sector salud de la ciudad de México, para poder ejecutar este código
-se requiere la base donde se recopila toda la información de los contagios en México, anexo el link en donde pueden encontrar la dicha base https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico
+El objetivo de este código es reproducir el modelo SIR, pero con la información de uso libre del sector salud de la ciudad de México, para poder ejecutar este código
+se requiere la base donde se recopila toda la información de los contagios en México, anexo el link en donde pueden encontrar dicha base https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico
 
 para ejecutar este código, se necesita cargar la base de datos e ingresar una fecha de inicio y una fecha final, la finalidad de estas dos fechas 
-es buscar en la base de datos de la Ciuedad de México todos los enfermos y recuperados en este intervalo de tiempo. Estas fechas junto con la base de datos
+es buscar en la base de datos de la Ciudad de México todos los enfermos y recuperados en este intervalo de tiempo. Estas fechas junto con la base de datos
 son importantes, pues son tomadas como parametros para las funciones **CalculoEnfermos** y **recuperados**
 
 Algo muy importante por mecionar es que en este código, los filtros de la base de datos, se realizaron con base en la metodología propuesta por el Conacyt, se anexa el link 
