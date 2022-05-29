@@ -21,7 +21,7 @@ se requiere la base donde se recopila toda la información de los contagios en M
 
 para ejecutar este código, se necesita cargar la base de datos e ingresar una fecha de inicio y una fecha final, la finalidad de estas dos fechas 
 es buscar en la base de datos de la Ciudad de México todos los enfermos y recuperados en este intervalo de tiempo. Estas fechas junto con la base de datos
-son importantes, pues son tomadas como parametros para las funciones **CalculoEnfermos** y **recuperados**
+son importantes, pues son tomadas como parámetros para las funciones **CalculoEnfermos** y **recuperados**
 
 Algo muy importante por mecionar es que en este código, los filtros de la base de datos, se realizaron con base en la metodología propuesta por el Conacyt, se anexa el link 
 donde puedes encontrar dicha metodología https://datos.covid-19.conacyt.mx/#DOView.
